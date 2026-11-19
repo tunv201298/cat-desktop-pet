@@ -4,7 +4,7 @@
 
 **English** · [Tiếng Việt](README.vi.md)
 
-Version 1.0.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · Intro video
+Version 1.0.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](#screenshots-and-video)
 
 ![Calico Cat poses](docs/images/preview.png)
 
@@ -28,6 +28,7 @@ from the menu. Every animation is cut from real (AI-generated) video, so it move
 - [Known limitations](#known-limitations)
 - [Troubleshooting](#troubleshooting)
 - [Uninstall](#uninstall)
+- [License](#license)
 
 ## Features
 
@@ -46,11 +47,9 @@ from the menu. Every animation is cut from real (AI-generated) video, so it move
 
 ## Screenshots and video
 
-**▶ Watch the intro video ** (2 min, with sound) — every activity of the real app, one after another.
-
+**▶ Intro video** (2 min, with sound) — every activity of the real app, one after another.
 
 https://github.com/user-attachments/assets/d3dd2594-0550-42e8-87d0-7f42f8c207b2
-
 
 <table>
 <tr><td align="center" width="33%"><img src="docs/images/screenshots/01-hello.png" alt="Says hello"><br>Says hello</td><td align="center" width="33%"><img src="docs/images/screenshots/02-walk.png" alt="Walks around"><br>Walks around</td><td align="center" width="33%"><img src="docs/images/screenshots/03-butterfly.png" alt="Chases butterflies"><br>Chases butterflies</td></tr>
@@ -194,6 +193,7 @@ To stop it, delete `~/.config/autostart/calico-cat.desktop`.
 | Problem | Solution |
 |---|---|
 | Windows: SmartScreen blocks the installer | Click **More info → Run anyway** (the installer is not code-signed) |
+| Windows: the antivirus reports Calico Cat as a threat | A false alarm that unsigned apps sometimes get. Download only from the [official releases page](https://github.com/tunv201298/cat-desktop-pet/releases), and please [open an issue](https://github.com/tunv201298/cat-desktop-pet/issues) so it can be reported to the antivirus vendor |
 | macOS: "Calico Cat cannot be opened" | *System Settings → Privacy & Security* → **Open Anyway** |
 | Ubuntu: the cat does not appear | Make sure you are in a normal desktop session (GNOME, KDE…); on Wayland, XWayland must be available (it is by default) |
 | The cat is hidden behind windows | Menu → 📌 Always on top |
@@ -210,3 +210,9 @@ Found a bug or have an idea? [Open an issue](https://github.com/tunv201298/cat-d
 2. Uninstall from *Settings → Apps* (Windows), with `sudo apt remove calico-cat` (Ubuntu), or by
    moving Calico Cat from *Applications* to the Trash (macOS).
 3. Delete the `.calico_cat` folder in your home folder.
+
+## License
+
+Calico Cat is free to use, at home and at work — see the [terms of use](LICENSE.txt). It includes
+third-party software (Python, Tcl/Tk, Pillow) under their own licenses, listed in
+`THIRD_PARTY_LICENSES.txt` next to the installed program.

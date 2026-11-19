@@ -1,0 +1,28 @@
+Calico Cat - Terms of Use
+
+Copyright (c) 2026 tunv201298. All rights reserved.
+
+Calico Cat (the "Software") is free of charge.
+
+You may:
+  - download, install and use the Software on any number of your own computers, at home or at work;
+  - share links to the official download page:
+    https://github.com/tunv201298/cat-desktop-pet/releases
+
+You may not:
+  - sell, rent or charge a fee for the Software;
+  - modify, decompile or reverse-engineer the Software, except where the law allows it regardless
+    of this restriction;
+  - redistribute the installers or the installed files elsewhere, or bundle them with other
+    software, without written permission;
+  - use the cat animations, images or sounds of the Software outside the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Third-party components included with the Software (Python, Tcl/Tk, Pillow and the libraries they
+use) are licensed under their own terms, reproduced in THIRD_PARTY_LICENSES.txt next to the
+program. Nothing in these terms limits your rights under those licenses.

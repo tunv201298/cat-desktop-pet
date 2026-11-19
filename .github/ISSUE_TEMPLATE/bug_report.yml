@@ -1,0 +1,39 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping to improve Calico Cat! Please fill in what you can.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: [Windows 11, Windows 10, Ubuntu / Debian, macOS, Other]
+    validations:
+      required: true
+  - type: input
+    id: os-details
+    attributes:
+      label: System details
+      placeholder: e.g. Windows 11 24H2 · Ubuntu 24.04 GNOME on Wayland · macOS 15 on M2
+  - type: input
+    id: version
+    attributes:
+      label: Calico Cat version
+      description: Shown near the bottom of the right-click menu.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or other details
+      description: Drag images or a short screen recording here if they help.

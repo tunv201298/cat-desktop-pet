@@ -4,7 +4,7 @@
 
 [English](README.md) · **Tiếng Việt**
 
-Phiên bản 1.0.0 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](docs/video/calico-cat-intro.mp4)
+Phiên bản 1.0.0 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](#ảnh-và-video)
 
 ![Các dáng của Calico Cat](docs/images/preview.png)
 
@@ -28,6 +28,7 @@ cắt từ video (tạo bằng AI), nên mèo chuyển động như mèo thật.
 - [Giới hạn đã biết](#giới-hạn-đã-biết)
 - [Xử lý sự cố](#xử-lý-sự-cố)
 - [Gỡ cài đặt](#gỡ-cài-đặt)
+- [Giấy phép](#giấy-phép)
 
 ## Tính năng
 
@@ -46,7 +47,9 @@ cắt từ video (tạo bằng AI), nên mèo chuyển động như mèo thật.
 
 ## Ảnh và video
 
-**[▶ Xem video giới thiệu](docs/video/calico-cat-intro.mp4)** (2 phút, có tiếng) — lần lượt mọi hoạt động của app thật.
+**▶ Video giới thiệu** (2 phút, có tiếng) — lần lượt mọi hoạt động của app thật.
+
+https://github.com/user-attachments/assets/d3dd2594-0550-42e8-87d0-7f42f8c207b2
 
 <table>
 <tr><td align="center" width="33%"><img src="docs/images/screenshots/01-hello.png" alt="Chào bạn"><br>Chào bạn</td><td align="center" width="33%"><img src="docs/images/screenshots/02-walk.png" alt="Đi dạo"><br>Đi dạo</td><td align="center" width="33%"><img src="docs/images/screenshots/03-butterfly.png" alt="Bắt bướm"><br>Bắt bướm</td></tr>
@@ -187,6 +190,7 @@ Muốn tắt thì xoá file `~/.config/autostart/calico-cat.desktop`.
 | Vấn đề | Cách xử lý |
 |---|---|
 | Windows: SmartScreen chặn bộ cài | Bấm **More info → Run anyway** (bộ cài chưa ký số) |
+| Windows: phần mềm diệt virus báo Calico Cat là mối đe doạ | Báo nhầm, app chưa ký số đôi khi bị vậy. Chỉ tải từ [trang phát hành chính thức](https://github.com/tunv201298/cat-desktop-pet/releases) và [tạo issue](https://github.com/tunv201298/cat-desktop-pet/issues) để báo lại với hãng diệt virus |
 | macOS: báo "Calico Cat cannot be opened" | *System Settings → Privacy & Security* → **Open Anyway** |
 | Ubuntu: mèo không hiện | Kiểm tra đang ở phiên desktop bình thường (GNOME, KDE…); trên Wayland cần có XWayland (mặc định có sẵn) |
 | Mèo bị cửa sổ khác che | Menu → 📌 Luôn ở trên cùng |
@@ -203,3 +207,9 @@ Gặp lỗi hoặc có góp ý? [Tạo issue](https://github.com/tunv201298/cat-
 2. Gỡ trong *Settings → Apps* (Windows), bằng `sudo apt remove calico-cat` (Ubuntu), hoặc kéo
    Calico Cat từ *Applications* vào Thùng rác (macOS).
 3. Xoá thư mục `.calico_cat` trong thư mục người dùng.
+
+## Giấy phép
+
+Calico Cat được dùng miễn phí, ở nhà lẫn ở chỗ làm — xem [điều khoản sử dụng](LICENSE.txt) (tiếng Anh).
+App có kèm phần mềm của bên thứ ba (Python, Tcl/Tk, Pillow) theo giấy phép riêng của từng phần mềm,
+liệt kê trong file `THIRD_PARTY_LICENSES.txt` cạnh chương trình đã cài.
