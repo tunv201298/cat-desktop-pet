@@ -4,7 +4,7 @@
 
 **English** · [Tiếng Việt](README.vi.md)
 
-Version 1.0.0 · [Release notes](https://github.com/tunv201298/calico-cat/releases) · [Download](https://github.com/tunv201298/calico-cat/releases/latest) · [▶ Intro video](docs/video/calico-cat-intro.mp4)
+Version 1.0.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](docs/video/calico-cat-intro.mp4)
 
 ![Calico Cat poses](docs/images/preview.png)
 
@@ -64,7 +64,7 @@ from the menu. Every animation is cut from real (AI-generated) video, so it move
 
 ## Installation
 
-Download the file for your system from the [latest release](https://github.com/tunv201298/calico-cat/releases/latest).
+Download the file for your system from the [latest release](https://github.com/tunv201298/cat-desktop-pet/releases/latest).
 
 ### Windows
 
@@ -197,7 +197,7 @@ To stop it, delete `~/.config/autostart/calico-cat.desktop`.
 | No sound | Menu → 🔊 Volume, and check your system volume |
 | The cat got lost off-screen | Menu → 🏠 Back to the corner, or delete the `.calico_cat` folder |
 
-Found a bug or have an idea? [Open an issue](https://github.com/tunv201298/calico-cat/issues).
+Found a bug or have an idea? [Open an issue](https://github.com/tunv201298/cat-desktop-pet/issues).
 
 ## Uninstall
 

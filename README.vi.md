@@ -4,7 +4,7 @@
 
 [English](README.md) · **Tiếng Việt**
 
-Phiên bản 1.0.0 · [Ghi chú phát hành](https://github.com/tunv201298/calico-cat/releases) · [Tải về](https://github.com/tunv201298/calico-cat/releases/latest) · [▶ Video giới thiệu](docs/video/calico-cat-intro.mp4)
+Phiên bản 1.0.0 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](docs/video/calico-cat-intro.mp4)
 
 ![Các dáng của Calico Cat](docs/images/preview.png)
 
@@ -64,7 +64,7 @@ cắt từ video (tạo bằng AI), nên mèo chuyển động như mèo thật.
 
 ## Cài đặt
 
-Tải file cho hệ điều hành của bạn ở [bản phát hành mới nhất](https://github.com/tunv201298/calico-cat/releases/latest).
+Tải file cho hệ điều hành của bạn ở [bản phát hành mới nhất](https://github.com/tunv201298/cat-desktop-pet/releases/latest).
 
 ### Windows
 
@@ -194,7 +194,7 @@ Muốn tắt thì xoá file `~/.config/autostart/calico-cat.desktop`.
 | Không nghe tiếng | Menu → 🔊 Âm lượng, và kiểm tra âm lượng của máy |
 | Mèo chạy mất khỏi màn hình | Menu → 🏠 Về góc phải màn hình, hoặc xoá thư mục `.calico_cat` |
 
-Gặp lỗi hoặc có góp ý? [Tạo issue](https://github.com/tunv201298/calico-cat/issues).
+Gặp lỗi hoặc có góp ý? [Tạo issue](https://github.com/tunv201298/cat-desktop-pet/issues).
 
 ## Gỡ cài đặt
 
