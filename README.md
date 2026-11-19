@@ -4,7 +4,7 @@
 
 **English** · [Tiếng Việt](README.vi.md)
 
-Version 1.0.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](docs/video/calico-cat-intro.mp4)
+Version 1.0.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · Intro video
 
 ![Calico Cat poses](docs/images/preview.png)
 
@@ -46,7 +46,11 @@ from the menu. Every animation is cut from real (AI-generated) video, so it move
 
 ## Screenshots and video
 
-**[▶ Watch the intro video](docs/video/calico-cat-intro.mp4)** (2 min, with sound) — every activity of the real app, one after another.
+**▶ Watch the intro video ** (2 min, with sound) — every activity of the real app, one after another.
+
+
+https://github.com/user-attachments/assets/d3dd2594-0550-42e8-87d0-7f42f8c207b2
+
 
 <table>
 <tr><td align="center" width="33%"><img src="docs/images/screenshots/01-hello.png" alt="Says hello"><br>Says hello</td><td align="center" width="33%"><img src="docs/images/screenshots/02-walk.png" alt="Walks around"><br>Walks around</td><td align="center" width="33%"><img src="docs/images/screenshots/03-butterfly.png" alt="Chases butterflies"><br>Chases butterflies</td></tr>
