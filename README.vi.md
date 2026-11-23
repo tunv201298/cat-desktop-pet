@@ -4,7 +4,7 @@
 
 [English](README.md) · **Tiếng Việt**
 
-Phiên bản 1.0.0 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](#ảnh-và-video)
+Phiên bản 1.0.1 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](#ảnh-và-video)
 
 ![Các dáng của Calico Cat](docs/images/preview.png)
 
@@ -183,7 +183,8 @@ Muốn tắt thì xoá file `~/.config/autostart/calico-cat.desktop`.
   khoảng 410 MB ở cỡ Lớn.
 - **Windows** — trong suốt kiểu bật/tắt từng điểm ảnh nên viền mèo hơi răng cưa, không mịn.
 - **Ubuntu** — khi menu đang mở, click ra ngoài chỉ đóng menu, không truyền xuống cửa sổ bên dưới.
-- **Nhiều màn hình** — mèo đi dọc mép dưới của toàn bộ màn hình ảo.
+- **Nhiều màn hình** — trên Windows, mèo đi và tiếp đất ở đáy của màn hình đang chứa nó (kéo mèo
+  sang màn hình khác để chuyển). Trên Ubuntu và macOS, mèo chỉ ở màn hình chính.
 
 ## Xử lý sự cố
 

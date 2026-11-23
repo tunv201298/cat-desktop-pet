@@ -4,7 +4,7 @@
 
 **English** · [Tiếng Việt](README.vi.md)
 
-Version 1.0.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](#screenshots-and-video)
+Version 1.0.1 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](#screenshots-and-video)
 
 ![Calico Cat poses](docs/images/preview.png)
 
@@ -186,7 +186,8 @@ To stop it, delete `~/.config/autostart/calico-cat.desktop`.
   of anti-aliased.
 - **Ubuntu** — while the menu is open, a click outside it only closes the menu and does not reach
   the window below.
-- **Multiple monitors** — the cat walks along the bottom edge of the whole virtual screen.
+- **Multiple monitors** — on Windows the cat walks and lands on the bottom of whichever monitor it is
+  on (drag it to another monitor to move it there). On Ubuntu and macOS it stays on the main screen.
 
 ## Troubleshooting
 
