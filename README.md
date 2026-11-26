@@ -4,7 +4,7 @@
 
 **English** · [Tiếng Việt](README.vi.md)
 
-Version 1.0.1 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](#screenshots-and-video)
+Version 1.2.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](#screenshots-and-video)
 
 ![Calico Cat poses](docs/images/preview.png)
 
@@ -27,6 +27,8 @@ from the menu. Every animation is cut from real (AI-generated) video, so it move
 - [Settings](#settings)
 - [Known limitations](#known-limitations)
 - [Troubleshooting](#troubleshooting)
+- [Support the cat](#support-the-cat)
+- [Custom cat](#custom-cat)
 - [Uninstall](#uninstall)
 - [License](#license)
 
@@ -36,9 +38,10 @@ from the menu. Every animation is cut from real (AI-generated) video, so it move
   stretching, chasing its tail, catching butterflies, playing with yarn, sleeping. Smooth 24–48
   frames per second with seamless transitions between poses; paws never slide on the ground.
 - **Lives on its own** — picks a random activity every few seconds, never in the same order twice.
-- **Interactive** — click to pet, double-click to make it jump, drag to pick it up by the scruff,
-  drop it and it lands on its feet.
-- **Stays out of your way** — only 51 px tall by default (three sizes), always on top or behind
+- **Interactive** — click to pet, double-click and it chirps, drag to pick it up by the scruff,
+  drop it and it lands on its feet. Wiggle the mouse pointer next to it and it may turn, pounce or
+  give chase.
+- **Stays out of your way** — only 41 px tall by default (three sizes), always on top or behind
   your windows as you prefer.
 - **10 languages** — English (default), Tiếng Việt, 日本語, 中文, 한국어, Español, Français, Deutsch,
   Português, Русский. Speech bubbles can be turned off.
@@ -101,9 +104,10 @@ The first time Calico Cat starts, a settings window opens before the cat appears
 | Option | Choices |
 |---|---|
 | Language | English (default) and 9 other languages — the window switches language as soon as you pick one |
-| Size | Small 51 px (default) · Medium 70 px · Large 106 px |
+| Size | Small 41 px (default) · Medium 56 px · Large 85 px |
 | Volume | 0 – 100% (default 50%); release the slider to hear a sample meow |
 | Show speech bubbles | On (default) / off |
+| Play with the mouse pointer | On (default) / off |
 | Always on top of other windows | On (default) / off |
 | Start with Windows | Off (default) / on — Windows only |
 
@@ -119,29 +123,32 @@ The cat appears in the bottom-right corner and starts living its life after a fe
 | Action | What happens |
 |---|---|
 | **Click** | Pet the cat — hearts float up, it meows and purrs, and its affection grows ❤ |
-| **Double-click** | The cat jumps |
+| **Double-click** | The cat chirps |
 | **Click and drag** | Pick the cat up by the scruff — it dangles and swings under your cursor |
-| **Release while holding** | The cat drops back to the ground and lands with a little bounce |
+| **Release while holding** | The cat drops back to the ground, lands in a crouch and sits up |
 | **Click while it sleeps** | Wakes it up |
+| **Wiggle the pointer near the sitting cat** | It notices — turns around, pounces or chases the pointer for a moment |
 | **Right-click** | Opens the menu |
 
 ### Menu
 
 | Item | Description |
 |---|---|
-| ✖ Close menu | Closes the menu (clicking anywhere outside it works too) |
 | 💕 Pet · 🐟 Feed fish | Pet or feed the cat (both increase affection) |
 | 🧼 Groom · 🦋 Catch butterfly · 🧶 Play with yarn · 🌀 Chase tail · 🥱 Stretch · 👀 Look around · 🔄 Turn around | Start an activity right away |
 | 🐭 Chase the mouse pointer | The cat follows your cursor for a few seconds |
 | 😴 Sleep / Wake up | Puts the cat to sleep or wakes it up |
-| 📏 Size | Small 51 px · Medium 70 px · Large 106 px |
+| 🪟 Go up onto a window / down | Windows only: the cat fades out, a small window appears on top of an open window, and the cat walks out of it and sits down (or goes back down the same way) |
+| 📏 Size | Small 41 px · Medium 56 px · Large 85 px |
 | 🌐 Language | Language of the speech bubbles and the menu |
-| 💬 Speech bubbles | Show or hide what the cat says |
+| 💬 Show speech bubbles (switch) | Show or hide what the cat says |
 | 🔊 Volume | Off · 25% · 50% · 75% · 100% for the cat sounds (meow, purr, trill, chatter, yawn…) |
-| 📌 Always on top | Keep the cat above other windows, or let windows cover it |
-| 🚀 Start with Windows | Launch automatically when you sign in (Windows only) |
+| 🖱️ Play with the mouse pointer (switch) | Let the cat react when the pointer wiggles near it, or not |
+| 📌 Always on top (switch) | Keep the cat above other windows, or let windows cover it |
+| 🚀 Start with Windows (switch) | Launch automatically when you sign in (Windows only) |
 | 🏠 Back to the corner | Moves the cat back to the bottom-right corner |
 | ⚙ Settings… | Opens the settings window to change several options at once |
+| ☕ Support the cat · 🎨 Order a cat that looks like your pet | Open the donation page or the request page in your browser |
 | ❤ Affection | How much the cat likes you (read-only) |
 | ❌ Goodbye | Quit |
 
@@ -158,13 +165,17 @@ The cat appears in the bottom-right corner and starts living its life after a fe
 | 👀 Look around | 7% | Looks back over its shoulder |
 | 🌀 Chase tail | 6% | Spins after its tail and gets dizzy |
 | 😴 Sleep | 6% | Curls up and breathes slowly until you wake it |
+| 🪟 Onto a window | Windows only | Goes up onto the top edge of an open (not maximised) window, walks and naps there, follows the window when you drag it and drops down when it closes |
 
 ## Settings
 
 Every change from the menu or the settings window is saved right away and kept for the next
-launch. Settings are stored in the `.calico_cat` folder in your home folder
-(Windows: `C:\Users\<you>\.calico_cat`); delete that folder to reset everything and see the
+launch. Settings are stored in `%APPDATA%\CalicoCat` on Windows and in the `.calico_cat` folder
+in your home folder on Ubuntu and macOS; delete that folder to reset everything and see the
 first-launch window again.
+
+By default the cat only makes sounds after you click it or pick something from the menu; tick
+**Also make sounds on its own** in the settings window to hear it while it plays by itself.
 
 The language item always also reads "Language", so you can find it even in a language you cannot read.
 
@@ -180,14 +191,16 @@ To stop it, delete `~/.config/autostart/calico-cat.desktop`.
 
 ## Known limitations
 
-- **Memory** — animations stay in memory so the cat reacts instantly: about 110 MB at Small size
-  and about 410 MB at Large.
+- **Memory** — animations stay in memory so the cat reacts instantly: about 90 MB at Small size
+  and about 240 MB at Large.
 - **Windows** — transparency is on/off per pixel, so the cat's outline is slightly jagged instead
   of anti-aliased.
 - **Ubuntu** — while the menu is open, a click outside it only closes the menu and does not reach
   the window below.
 - **Multiple monitors** — on Windows the cat walks and lands on the bottom of whichever monitor it is
   on (drag it to another monitor to move it there). On Ubuntu and macOS it stays on the main screen.
+- **Ubuntu on Wayland** — the cat only notices the mouse pointer while the pointer is over another
+  X11 window or the cat itself, so *Play with the mouse pointer* rarely triggers there.
 
 ## Troubleshooting
 
@@ -200,9 +213,25 @@ To stop it, delete `~/.config/autostart/calico-cat.desktop`.
 | The cat is hidden behind windows | Menu → 📌 Always on top |
 | The cat is too big or too small | Menu → 📏 Size |
 | No sound | Menu → 🔊 Volume, and check your system volume |
-| The cat got lost off-screen | Menu → 🏠 Back to the corner, or delete the `.calico_cat` folder |
+| The cat got lost off-screen | Menu → 🏠 Back to the corner, or delete the settings folder (see [Settings](#settings)) |
 
 Found a bug or have an idea? [Open an issue](https://github.com/tunv201298/cat-desktop-pet/issues).
+
+## Support the cat
+
+Calico Cat is free. If it makes your day a little nicer, you can help it grow:
+
+- **Donate** — a pay-what-you-want page on itch.io is coming with the public release; the link will
+  appear here.
+- **Star** [this repository](https://github.com/tunv201298/cat-desktop-pet) and share the cat with friends.
+- **Report bugs and ideas** in the [issues](https://github.com/tunv201298/cat-desktop-pet/issues).
+
+## Custom cat
+
+Want a desktop cat that looks like your own pet? Each custom cat is drawn from new animations made
+from your photos and delivered as its own installer. [Send a request](https://github.com/tunv201298/cat-desktop-pet/issues/new?title=Custom%20cat%20request&body=%2A%2AMy%20pet%3A%2A%2A%20%28cat%20or%20dog%2C%20coat%20colours%20and%20markings%29%0A%0A%2A%2APhotos%3A%2A%2A%20%28attach%203%E2%80%935%20clear%20photos%3A%20side%20view%20sitting%2C%20side%20view%20standing%20or%20walking%2C%20face%29%0A%0A%2A%2ASystem%3A%2A%2A%20Windows%20/%20Ubuntu%20/%20macOS%0A%0A%2A%2AHow%20to%20reach%20me%20for%20the%20price%3A%2A%2A%20%28email%20or%20other%20contact%29)
+with 3–5 clear photos of your pet; you get a price before any work starts. Issues are public — if
+you would rather not share the photos publicly, say so in the request and leave a way to contact you.
 
 ## Uninstall
 
@@ -210,7 +239,7 @@ Found a bug or have an idea? [Open an issue](https://github.com/tunv201298/cat-d
    uninstaller also removes the start-up entry).
 2. Uninstall from *Settings → Apps* (Windows), with `sudo apt remove calico-cat` (Ubuntu), or by
    moving Calico Cat from *Applications* to the Trash (macOS).
-3. Delete the `.calico_cat` folder in your home folder.
+3. Delete the settings folder (see [Settings](#settings)).
 
 ## License
 

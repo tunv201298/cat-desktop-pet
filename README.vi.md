@@ -4,7 +4,7 @@
 
 [English](README.md) · **Tiếng Việt**
 
-Phiên bản 1.0.1 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](#ảnh-và-video)
+Phiên bản 1.2.0 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](#ảnh-và-video)
 
 ![Các dáng của Calico Cat](docs/images/preview.png)
 
@@ -27,6 +27,8 @@ cắt từ video (tạo bằng AI), nên mèo chuyển động như mèo thật.
 - [Thiết lập](#thiết-lập)
 - [Giới hạn đã biết](#giới-hạn-đã-biết)
 - [Xử lý sự cố](#xử-lý-sự-cố)
+- [Ủng hộ tác giả](#support)
+- [Đặt làm mèo giống thú cưng của bạn](#custom-cat)
 - [Gỡ cài đặt](#gỡ-cài-đặt)
 - [Giấy phép](#giấy-phép)
 
@@ -36,9 +38,9 @@ cắt từ video (tạo bằng AI), nên mèo chuyển động như mèo thật.
   đuôi, bắt bướm, chơi len, ngủ. Mượt 24–48 khung/giây, chuyển dáng liền mạch, chân không trượt
   trên mặt đất.
 - **Tự sinh hoạt** — vài giây lại chọn một hoạt động ngẫu nhiên, không lặp lại y hệt.
-- **Tương tác** — click để vuốt ve, nhấn đúp để mèo nhảy, kéo để nhấc gáy mèo lên, thả ra là mèo
-  rơi xuống tiếp đất.
-- **Không vướng việc** — mặc định chỉ cao 51 px (có 3 cỡ), luôn nằm trên cùng hoặc nằm sau các
+- **Tương tác** — click để vuốt ve, nhấn đúp để mèo kêu, kéo để nhấc gáy mèo lên, thả ra là mèo
+  rơi xuống tiếp đất. Lắc con trỏ chuột cạnh mèo là mèo có thể quay lại nhìn, vồ hoặc đuổi theo.
+- **Không vướng việc** — mặc định chỉ cao 41 px (có 3 cỡ), luôn nằm trên cùng hoặc nằm sau các
   cửa sổ tuỳ bạn chọn.
 - **10 ngôn ngữ** — English (mặc định), Tiếng Việt, 日本語, 中文, 한국어, Español, Français, Deutsch,
   Português, Русский. Tắt được bong bóng lời thoại.
@@ -101,9 +103,10 @@ Lần đầu mở Calico Cat, cửa sổ thiết lập hiện ra trước khi m�
 | Tuỳ chọn | Lựa chọn |
 |---|---|
 | Ngôn ngữ | English (mặc định) và 9 ngôn ngữ khác — chọn xong là cửa sổ đổi ngôn ngữ theo ngay |
-| Kích thước | Nhỏ 51 px (mặc định) · Vừa 70 px · Lớn 106 px |
+| Kích thước | Nhỏ 41 px (mặc định) · Vừa 56 px · Lớn 85 px |
 | Âm lượng | 0 – 100% (mặc định 50%); thả thanh trượt ra để nghe thử tiếng meo |
 | Hiện bong bóng lời thoại | Bật (mặc định) / tắt |
+| Vờn con trỏ chuột | Bật (mặc định) / tắt |
 | Luôn nằm trên các cửa sổ khác | Bật (mặc định) / tắt |
 | Khởi động cùng Windows | Tắt (mặc định) / bật — chỉ có trên Windows |
 
@@ -119,22 +122,24 @@ Mèo xuất hiện ở góc dưới bên phải màn hình và bắt đầu tự
 | Thao tác | Kết quả |
 |---|---|
 | **Click** | Vuốt ve — tim bay lên, mèo kêu meo rồi gừ gừ, độ thân thiết tăng ❤ |
-| **Nhấn đúp** | Mèo nhảy lên |
+| **Nhấn đúp** | Mèo kêu một tiếng |
 | **Bấm giữ và kéo** | Nhấc gáy mèo lên — mèo treo lủng lẳng, đung đưa theo con trỏ |
-| **Thả chuột khi đang nhấc** | Mèo rơi xuống đất và tiếp đất nhún nhẹ |
+| **Thả chuột khi đang nhấc** | Mèo rơi xuống đất, tiếp đất khom người rồi ngồi dậy |
 | **Click khi mèo đang ngủ** | Đánh thức mèo |
+| **Lắc con trỏ cạnh mèo đang ngồi** | Mèo để ý — quay lại nhìn, vồ hoặc đuổi theo con trỏ một lúc |
 | **Chuột phải** | Mở menu |
 
 ### Menu
 
 | Mục | Mô tả |
 |---|---|
-| ✖ Đóng menu | Đóng menu (click ra ngoài menu cũng được) |
 | 💕 Vuốt ve · 🐟 Cho ăn cá | Vuốt ve hoặc cho mèo ăn (đều tăng độ thân thiết) |
 | 🧼 Liếm lông · 🦋 Bắt bướm · 🧶 Chơi bóng len · 🌀 Đuổi đuôi · 🥱 Vươn vai · 👀 Ngó quanh · 🔄 Quay người | Cho mèo làm ngay hoạt động đó |
 | 🐭 Đuổi theo con trỏ chuột | Mèo chạy theo con trỏ trong vài giây |
+| 🖱 Vờn con trỏ chuột | Bật/tắt việc mèo phản ứng khi con trỏ lắc lư gần nó |
 | 😴 Đi ngủ / Thức dậy | Cho mèo ngủ hoặc đánh thức |
-| 📏 Kích thước | Nhỏ 51 px · Vừa 70 px · Lớn 106 px |
+| 🪟 Lên cửa sổ / xuống | Chỉ Windows: mèo mờ dần, trên nóc một cửa sổ đang mở hiện ra một ô cửa sổ nhỏ, mèo bước ra rồi ngồi xuống (xuống lại cũng vậy) |
+| 📏 Kích thước | Nhỏ 41 px · Vừa 56 px · Lớn 85 px |
 | 🌐 Ngôn ngữ | Ngôn ngữ của lời thoại và menu |
 | 💬 Lời thoại | Hiện hoặc ẩn bong bóng lời thoại |
 | 🔊 Âm lượng | Tắt · 25% · 50% · 75% · 100% cho tiếng mèo (meo, gừ gừ, kêu rừ, ngáp…) |
@@ -142,6 +147,7 @@ Mèo xuất hiện ở góc dưới bên phải màn hình và bắt đầu tự
 | 🚀 Khởi động cùng Windows | Tự chạy khi đăng nhập (chỉ Windows) |
 | 🏠 Về góc phải màn hình | Đưa mèo về góc dưới bên phải |
 | ⚙ Thiết lập… | Mở cửa sổ thiết lập để đổi nhiều tuỳ chọn một lúc |
+| ☕ Ủng hộ tác giả · 🎨 Đặt làm mèo giống thú cưng của bạn | Mở trang ủng hộ hoặc trang gửi yêu cầu trong trình duyệt |
 | ❤ Độ thân thiết | Mèo quý bạn tới đâu (chỉ để xem) |
 | ❌ Tạm biệt meo | Thoát |
 
@@ -158,12 +164,16 @@ Mèo xuất hiện ở góc dưới bên phải màn hình và bắt đầu tự
 | 👀 Ngó quanh | 7% | Ngoái đầu nhìn ra sau |
 | 🌀 Đuổi đuôi | 6% | Xoay vòng đuổi đuôi tới chóng mặt |
 | 😴 Ngủ | 6% | Cuộn tròn thở đều tới khi bạn đánh thức |
+| 🪟 Lên cửa sổ | Chỉ Windows | Lên nóc một cửa sổ đang mở (không phóng to), đi lại và ngủ trên đó, đi theo khi bạn kéo cửa sổ, rơi xuống khi cửa sổ đóng |
 
 ## Thiết lập
 
 Mọi thay đổi trong menu hoặc cửa sổ thiết lập được lưu ngay và giữ cho lần mở sau. Thiết lập nằm
-trong thư mục `.calico_cat` ở thư mục người dùng (Windows: `C:\Users\<tên bạn>\.calico_cat`); xoá
-thư mục này để đưa mọi thứ về mặc định và thấy lại cửa sổ thiết lập lần đầu.
+ở `%APPDATA%\CalicoCat` trên Windows, và trong thư mục `.calico_cat` ở thư mục người dùng trên
+Ubuntu, macOS; xoá thư mục này để đưa mọi thứ về mặc định và thấy lại cửa sổ thiết lập lần đầu.
+
+Mặc định mèo chỉ kêu sau khi bạn click hoặc chọn một mục trong menu; tick **Kêu cả khi tự chơi**
+trong cửa sổ thiết lập để nghe cả lúc mèo tự chơi.
 
 Mục ngôn ngữ luôn kèm chữ "Language", để ai không đọc được ngôn ngữ đang chọn vẫn tìm ra chỗ đổi.
 
@@ -179,12 +189,14 @@ Muốn tắt thì xoá file `~/.config/autostart/calico-cat.desktop`.
 
 ## Giới hạn đã biết
 
-- **Bộ nhớ** — hoạt ảnh được giữ sẵn trong RAM để mèo phản ứng tức thì: khoảng 110 MB ở cỡ Nhỏ,
-  khoảng 410 MB ở cỡ Lớn.
+- **Bộ nhớ** — hoạt ảnh được giữ sẵn trong RAM để mèo phản ứng tức thì: khoảng 90 MB ở cỡ Nhỏ,
+  khoảng 240 MB ở cỡ Lớn.
 - **Windows** — trong suốt kiểu bật/tắt từng điểm ảnh nên viền mèo hơi răng cưa, không mịn.
 - **Ubuntu** — khi menu đang mở, click ra ngoài chỉ đóng menu, không truyền xuống cửa sổ bên dưới.
 - **Nhiều màn hình** — trên Windows, mèo đi và tiếp đất ở đáy của màn hình đang chứa nó (kéo mèo
   sang màn hình khác để chuyển). Trên Ubuntu và macOS, mèo chỉ ở màn hình chính.
+- **Ubuntu dùng Wayland** — mèo chỉ thấy con trỏ chuột khi con trỏ nằm trên cửa sổ X11 khác hoặc trên
+  chính mèo, nên *Vờn con trỏ chuột* hiếm khi xảy ra.
 
 ## Xử lý sự cố
 
@@ -197,9 +209,27 @@ Muốn tắt thì xoá file `~/.config/autostart/calico-cat.desktop`.
 | Mèo bị cửa sổ khác che | Menu → 📌 Luôn ở trên cùng |
 | Mèo quá to hoặc quá nhỏ | Menu → 📏 Kích thước |
 | Không nghe tiếng | Menu → 🔊 Âm lượng, và kiểm tra âm lượng của máy |
-| Mèo chạy mất khỏi màn hình | Menu → 🏠 Về góc phải màn hình, hoặc xoá thư mục `.calico_cat` |
+| Mèo chạy mất khỏi màn hình | Menu → 🏠 Về góc phải màn hình, hoặc xoá thư mục thiết lập (xem [Thiết lập](#thiết-lập)) |
 
 Gặp lỗi hoặc có góp ý? [Tạo issue](https://github.com/tunv201298/cat-desktop-pet/issues).
+
+<a id="support"></a>
+## Ủng hộ tác giả
+
+Calico Cat miễn phí. Nếu chú mèo làm ngày của bạn vui hơn một chút, bạn có thể giúp nó lớn lên:
+
+- **Ủng hộ** — trang itch.io (trả bao nhiêu tuỳ bạn) sẽ có khi phát hành chính thức; link sẽ được
+  thêm vào đây.
+- **Gắn sao** [repository này](https://github.com/tunv201298/cat-desktop-pet) và giới thiệu chú mèo cho bạn bè.
+- **Báo lỗi, góp ý** ở mục [issues](https://github.com/tunv201298/cat-desktop-pet/issues).
+
+<a id="custom-cat"></a>
+## Đặt làm mèo giống thú cưng của bạn
+
+Muốn một chú mèo trên màn hình giống hệt thú cưng của mình? Mỗi bản đặt riêng được làm hoạt ảnh mới từ
+ảnh của bạn và giao thành một bộ cài riêng. [Gửi yêu cầu](https://github.com/tunv201298/cat-desktop-pet/issues/new?title=%C4%90%E1%BA%B7t%20l%C3%A0m%20m%C3%A8o%20ri%C3%AAng&body=%2A%2ATh%C3%BA%20c%C6%B0ng%20c%E1%BB%A7a%20t%C3%B4i%3A%2A%2A%20%28m%C3%A8o%20hay%20ch%C3%B3%2C%20m%C3%A0u%20l%C3%B4ng%20v%C3%A0%20v%E1%BA%B1n%29%0A%0A%2A%2A%E1%BA%A2nh%3A%2A%2A%20%28%C4%91%C3%ADnh%20k%C3%A8m%203%E2%80%935%20%E1%BA%A3nh%20r%C3%B5%3A%20nh%C3%ACn%20ngang%20l%C3%BAc%20ng%E1%BB%93i%2C%20nh%C3%ACn%20ngang%20l%C3%BAc%20%C4%91%E1%BB%A9ng%20ho%E1%BA%B7c%20%C4%91i%2C%20khu%C3%B4n%20m%E1%BA%B7t%29%0A%0A%2A%2AH%E1%BB%87%20%C4%91i%E1%BB%81u%20h%C3%A0nh%3A%2A%2A%20Windows%20/%20Ubuntu%20/%20macOS%0A%0A%2A%2AC%C3%A1ch%20li%C3%AAn%20h%E1%BB%87%20%C4%91%E1%BB%83%20b%C3%A1o%20gi%C3%A1%3A%2A%2A%20%28email%20ho%E1%BA%B7c%20c%C3%A1ch%20kh%C3%A1c%29) kèm
+3–5 ảnh rõ của thú cưng; bạn nhận báo giá trước khi bắt đầu làm. Issue là công khai — nếu không muốn
+công khai ảnh, hãy ghi rõ trong yêu cầu và để lại cách liên hệ.
 
 ## Gỡ cài đặt
 
@@ -207,7 +237,7 @@ Gặp lỗi hoặc có góp ý? [Tạo issue](https://github.com/tunv201298/cat-
    cài đặt tự xoá luôn mục khởi động cùng Windows).
 2. Gỡ trong *Settings → Apps* (Windows), bằng `sudo apt remove calico-cat` (Ubuntu), hoặc kéo
    Calico Cat từ *Applications* vào Thùng rác (macOS).
-3. Xoá thư mục `.calico_cat` trong thư mục người dùng.
+3. Xoá thư mục thiết lập (xem [Thiết lập](#thiết-lập)).
 
 ## Giấy phép
 
