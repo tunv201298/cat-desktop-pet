@@ -242,8 +242,8 @@ Gặp lỗi hoặc có góp ý? [Tạo issue](https://github.com/tunv201298/cat-
 
 Calico Cat miễn phí. Nếu chú mèo làm ngày của bạn vui hơn một chút, bạn có thể giúp nó lớn lên:
 
-- **Ủng hộ** — trang itch.io (trả bao nhiêu tuỳ bạn) sẽ có khi phát hành chính thức; link sẽ được
-  thêm vào đây.
+- **Ủng hộ** trên [itch.io](https://tunv201298.itch.io/calico-cat) — trả bao nhiêu tuỳ bạn (cũng
+  tải app được ở đó).
 - **Gắn sao** [repository này](https://github.com/tunv201298/cat-desktop-pet) và giới thiệu chú mèo cho bạn bè.
 - **Báo lỗi, góp ý** ở mục [issues](https://github.com/tunv201298/cat-desktop-pet/issues).
 

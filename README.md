@@ -245,8 +245,8 @@ Found a bug or have an idea? [Open an issue](https://github.com/tunv201298/cat-d
 
 Calico Cat is free. If it makes your day a little nicer, you can help it grow:
 
-- **Donate** — a pay-what-you-want page on itch.io is coming with the public release; the link will
-  appear here.
+- **Donate** on [itch.io](https://tunv201298.itch.io/calico-cat) — pay what you want (you can also
+  download the app there).
 - **Star** [this repository](https://github.com/tunv201298/cat-desktop-pet) and share the cat with friends.
 - **Report bugs and ideas** in the [issues](https://github.com/tunv201298/cat-desktop-pet/issues).
 
