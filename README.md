@@ -74,12 +74,29 @@ Download the file for your system from the [latest release](https://github.com/t
 
 ### Windows
 
-1. Run **`CalicoCat-<version>-Setup.exe`**. It installs for your user account only — no
-   administrator rights needed (choose "all users" in the first dialog if you prefer).
-2. Leave **Launch Calico Cat** ticked on the last page, or start **Calico Cat** from the Start menu later.
+1. Download **`CalicoCat-<version>-Setup.exe`** from the [latest release](https://github.com/tunv201298/cat-desktop-pet/releases/latest).
+   If your browser says the file *isn't commonly downloaded*, choose **Keep** (in Edge: **…** →
+   **Keep** → **Show more** → **Keep anyway**).
+2. Double-click the file. Windows shows a blue **Windows protected your PC** window: click
+   **More info**, then **Run anyway**. This is shown only once.
+3. The installer installs for your user account only — no administrator rights needed (choose
+   "all users" in the first dialog if you prefer). Leave **Launch Calico Cat** ticked on the last
+   page, or start **Calico Cat** from the Start menu later.
+4. The settings window opens first (language, size, sound…); click **OK** and the cat appears.
+   You can change everything later: right-click the cat → **⚙️ Settings…**.
 
-Windows SmartScreen may warn about an unknown publisher because the installer is not code-signed:
-click **More info → Run anyway**.
+**Why does Windows warn, and is it safe?** Windows shows this window for every new app that is not
+signed with a paid code-signing certificate (a few hundred dollars a year, too much for a free hobby
+app). It is not a virus warning. Calico Cat:
+
+- is only published on [this page](https://github.com/tunv201298/cat-desktop-pet/releases) — do not
+  install copies from anywhere else;
+- is built on GitHub's servers for every release; the release notes list the SHA-256 checksum of each
+  file, so you can check that your download is the original (PowerShell:
+  `Get-FileHash CalicoCat-<version>-Setup.exe`);
+- needs no administrator rights, never connects to the internet and collects no data (opening the
+  ☕ / 🎨 menu items only opens this page in your browser);
+- uninstalls cleanly from *Settings → Apps* (see [Uninstall](#uninstall)).
 
 ### Ubuntu / Debian
 

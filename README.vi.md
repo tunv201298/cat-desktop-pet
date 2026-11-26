@@ -73,12 +73,29 @@ Tải file cho hệ điều hành của bạn ở [bản phát hành mới nhấ
 
 ### Windows
 
-1. Chạy **`CalicoCat-<phiên bản>-Setup.exe`**. Bộ cài chỉ cài cho tài khoản của bạn — không cần
-   quyền quản trị (muốn cài cho mọi người dùng thì chọn "all users" ở hộp thoại đầu tiên).
-2. Để nguyên ô **Launch Calico Cat** ở trang cuối, hoặc mở **Calico Cat** từ Start menu sau.
+1. Tải **`CalicoCat-<phiên bản>-Setup.exe`** ở [bản phát hành mới nhất](https://github.com/tunv201298/cat-desktop-pet/releases/latest).
+   Nếu trình duyệt báo file *không thường được tải về*, chọn **Keep** (trên Edge: **…** →
+   **Keep** → **Show more** → **Keep anyway**).
+2. Nhấn đúp vào file. Windows hiện khung xanh **Windows protected your PC**: bấm **More info**, rồi
+   **Run anyway**. Chỉ hiện một lần.
+3. Bộ cài chỉ cài cho tài khoản của bạn — không cần quyền quản trị (muốn cài cho mọi người dùng thì
+   chọn "all users" ở hộp thoại đầu tiên). Để nguyên ô **Launch Calico Cat** ở trang cuối, hoặc mở
+   **Calico Cat** từ Start menu sau.
+4. Cửa sổ thiết lập mở ra trước (ngôn ngữ, kích thước, âm thanh…); bấm **OK** là mèo xuất hiện. Đổi
+   lại lúc nào cũng được: chuột phải vào mèo → **⚙️ Thiết lập…**.
 
-Windows SmartScreen có thể cảnh báo nhà phát hành không xác định vì bộ cài chưa ký số: bấm
-**More info → Run anyway**.
+**Vì sao Windows cảnh báo, có an toàn không?** Windows hiện khung này với mọi app mới chưa được ký bằng
+chứng chỉ ký số trả phí (vài trăm USD mỗi năm, quá đắt với một app miễn phí làm vì sở thích). Đây không
+phải cảnh báo có virus. Calico Cat:
+
+- chỉ được phát hành ở [trang này](https://github.com/tunv201298/cat-desktop-pet/releases) — đừng cài
+  bản lấy từ nơi khác;
+- được build trên máy chủ của GitHub cho mỗi bản phát hành; ghi chú phát hành có mã SHA-256 của từng
+  file để bạn kiểm tra file tải về đúng là file gốc (PowerShell:
+  `Get-FileHash CalicoCat-<phiên bản>-Setup.exe`);
+- không cần quyền quản trị, không kết nối internet, không thu thập dữ liệu (mục ☕ / 🎨 trong menu chỉ
+  mở trang này trong trình duyệt);
+- gỡ sạch trong *Settings → Apps* (xem [Gỡ cài đặt](#gỡ-cài-đặt)).
 
 ### Ubuntu / Debian
 
