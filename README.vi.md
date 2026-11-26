@@ -4,7 +4,7 @@
 
 [English](README.md) · **Tiếng Việt**
 
-Phiên bản 1.2.0 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](#ảnh-và-video)
+Phiên bản 1.3.0 · [Ghi chú phát hành](https://github.com/tunv201298/cat-desktop-pet/releases) · [Tải về](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Video giới thiệu](#ảnh-và-video)
 
 ![Các dáng của Calico Cat](docs/images/preview.png)
 
@@ -49,14 +49,15 @@ cắt từ video (tạo bằng AI), nên mèo chuyển động như mèo thật.
 
 ## Ảnh và video
 
-**▶ Video giới thiệu** (2 phút, có tiếng) — lần lượt mọi hoạt động của app thật.
+**▶ Video giới thiệu** (1 phút 17 giây, không tiếng) — app thật, quay trên một màn hình trống.
 
-https://github.com/user-attachments/assets/d3dd2594-0550-42e8-87d0-7f42f8c207b2
+https://github.com/user-attachments/assets/464a1e31-83be-4b73-bc18-72bfb395a1d7
 
 <table>
 <tr><td align="center" width="33%"><img src="docs/images/screenshots/01-hello.png" alt="Chào bạn"><br>Chào bạn</td><td align="center" width="33%"><img src="docs/images/screenshots/02-walk.png" alt="Đi dạo"><br>Đi dạo</td><td align="center" width="33%"><img src="docs/images/screenshots/03-butterfly.png" alt="Bắt bướm"><br>Bắt bướm</td></tr>
-<tr><td align="center" width="33%"><img src="docs/images/screenshots/04-pet.png" alt="Click để vuốt ve"><br>Click để vuốt ve</td><td align="center" width="33%"><img src="docs/images/screenshots/05-yarn.png" alt="Chơi bóng len"><br>Chơi bóng len</td><td align="center" width="33%"><img src="docs/images/screenshots/06-pick-up.png" alt="Kéo để nhấc lên"><br>Kéo để nhấc lên</td></tr>
-<tr><td align="center" width="33%"><img src="docs/images/screenshots/07-stretch.png" alt="Vươn vai và ngáp"><br>Vươn vai và ngáp</td><td align="center" width="33%"><img src="docs/images/screenshots/08-sleep.png" alt="Ngủ trưa"><br>Ngủ trưa</td><td align="center" width="33%"><img src="docs/images/screenshots/09-menu.png" alt="Menu chuột phải"><br>Menu chuột phải</td></tr>
+<tr><td align="center" width="33%"><img src="docs/images/screenshots/04-pet.png" alt="Click để vuốt ve"><br>Click để vuốt ve</td><td align="center" width="33%"><img src="docs/images/screenshots/11-eat.png" alt="Ăn cá"><br>Ăn cá</td><td align="center" width="33%"><img src="docs/images/screenshots/05-yarn.png" alt="Chơi bóng len"><br>Chơi bóng len</td></tr>
+<tr><td align="center" width="33%"><img src="docs/images/screenshots/06-pick-up.png" alt="Kéo để nhấc lên"><br>Kéo để nhấc lên</td><td align="center" width="33%"><img src="docs/images/screenshots/07-stretch.png" alt="Vươn vai và ngáp"><br>Vươn vai và ngáp</td><td align="center" width="33%"><img src="docs/images/screenshots/08-sleep.png" alt="Ngủ trưa"><br>Ngủ trưa</td></tr>
+<tr><td align="center" width="33%"><img src="docs/images/screenshots/09-menu.png" alt="Menu chuột phải"><br>Menu chuột phải</td><td align="center" width="33%"><img src="docs/images/screenshots/10-settings.png" alt="Thiết lập"><br>Thiết lập</td></tr>
 </table>
 
 ## Hệ điều hành hỗ trợ
@@ -146,6 +147,11 @@ Mèo xuất hiện ở góc dưới bên phải màn hình và bắt đầu tự
 | **Lắc con trỏ cạnh mèo đang ngồi** | Mèo để ý — quay lại nhìn, vồ hoặc đuổi theo con trỏ một lúc |
 | **Chuột phải** | Mở menu |
 
+**Không thấy mèo đâu** (bị cửa sổ che, hoặc chạy khỏi màn hình)? Mở lại Calico Cat từ Start menu hoặc menu
+ứng dụng: con mèo đang chạy sẽ về góc màn hình và chào bạn. Trên Windows còn có thể bấm biểu tượng mèo ở
+khay hệ thống (góc phải thanh tác vụ; chuột phải vào đó để mở menu). Khi game, video hay trình chiếu đang
+chạy toàn màn hình, mèo tự ẩn và im lặng (Windows).
+
 ### Menu
 
 | Mục | Mô tả |
@@ -163,6 +169,7 @@ Mèo xuất hiện ở góc dưới bên phải màn hình và bắt đầu tự
 | 📌 Luôn ở trên cùng | Mèo luôn nằm trên mọi cửa sổ, hoặc để cửa sổ khác che |
 | 🚀 Khởi động cùng Windows | Tự chạy khi đăng nhập (chỉ Windows) |
 | 🏠 Về góc phải màn hình | Đưa mèo về góc dưới bên phải |
+| 🙈 Ẩn mèo / 🐱 Hiện mèo | Chỉ Windows: ẩn mèo; bấm biểu tượng ở khay hệ thống để gọi lại |
 | ⚙ Thiết lập… | Mở cửa sổ thiết lập để đổi nhiều tuỳ chọn một lúc |
 | ☕ Ủng hộ tác giả · 🎨 Đặt làm mèo giống thú cưng của bạn | Mở trang ủng hộ hoặc trang gửi yêu cầu trong trình duyệt |
 | ❤ Độ thân thiết | Mèo quý bạn tới đâu (chỉ để xem) |
@@ -226,7 +233,7 @@ Muốn tắt thì xoá file `~/.config/autostart/calico-cat.desktop`.
 | Mèo bị cửa sổ khác che | Menu → 📌 Luôn ở trên cùng |
 | Mèo quá to hoặc quá nhỏ | Menu → 📏 Kích thước |
 | Không nghe tiếng | Menu → 🔊 Âm lượng, và kiểm tra âm lượng của máy |
-| Mèo chạy mất khỏi màn hình | Menu → 🏠 Về góc phải màn hình, hoặc xoá thư mục thiết lập (xem [Thiết lập](#thiết-lập)) |
+| Mèo chạy mất khỏi màn hình hoặc bị cửa sổ che | Mở lại Calico Cat (hoặc bấm biểu tượng ở khay hệ thống trên Windows) — mèo về góc màn hình; hoặc Menu → 🏠 Về góc phải màn hình |
 
 Gặp lỗi hoặc có góp ý? [Tạo issue](https://github.com/tunv201298/cat-desktop-pet/issues).
 

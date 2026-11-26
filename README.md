@@ -4,7 +4,7 @@
 
 **English** · [Tiếng Việt](README.vi.md)
 
-Version 1.2.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](#screenshots-and-video)
+Version 1.3.0 · [Release notes](https://github.com/tunv201298/cat-desktop-pet/releases) · [Download](https://github.com/tunv201298/cat-desktop-pet/releases/latest) · [▶ Intro video](#screenshots-and-video)
 
 ![Calico Cat poses](docs/images/preview.png)
 
@@ -50,14 +50,15 @@ from the menu. Every animation is cut from real (AI-generated) video, so it move
 
 ## Screenshots and video
 
-**▶ Intro video** (2 min, with sound) — every activity of the real app, one after another.
+**▶ Intro video** (1 min 17 s, no sound) — the real app, recorded on a plain desktop.
 
-https://github.com/user-attachments/assets/d3dd2594-0550-42e8-87d0-7f42f8c207b2
+https://github.com/user-attachments/assets/464a1e31-83be-4b73-bc18-72bfb395a1d7
 
 <table>
 <tr><td align="center" width="33%"><img src="docs/images/screenshots/01-hello.png" alt="Says hello"><br>Says hello</td><td align="center" width="33%"><img src="docs/images/screenshots/02-walk.png" alt="Walks around"><br>Walks around</td><td align="center" width="33%"><img src="docs/images/screenshots/03-butterfly.png" alt="Chases butterflies"><br>Chases butterflies</td></tr>
-<tr><td align="center" width="33%"><img src="docs/images/screenshots/04-pet.png" alt="Click to pet"><br>Click to pet</td><td align="center" width="33%"><img src="docs/images/screenshots/05-yarn.png" alt="Plays with yarn"><br>Plays with yarn</td><td align="center" width="33%"><img src="docs/images/screenshots/06-pick-up.png" alt="Drag to pick it up"><br>Drag to pick it up</td></tr>
-<tr><td align="center" width="33%"><img src="docs/images/screenshots/07-stretch.png" alt="Stretches and yawns"><br>Stretches and yawns</td><td align="center" width="33%"><img src="docs/images/screenshots/08-sleep.png" alt="Takes naps"><br>Takes naps</td><td align="center" width="33%"><img src="docs/images/screenshots/09-menu.png" alt="Right-click menu"><br>Right-click menu</td></tr>
+<tr><td align="center" width="33%"><img src="docs/images/screenshots/04-pet.png" alt="Click to pet"><br>Click to pet</td><td align="center" width="33%"><img src="docs/images/screenshots/11-eat.png" alt="Eats a fish"><br>Eats a fish</td><td align="center" width="33%"><img src="docs/images/screenshots/05-yarn.png" alt="Plays with yarn"><br>Plays with yarn</td></tr>
+<tr><td align="center" width="33%"><img src="docs/images/screenshots/06-pick-up.png" alt="Drag to pick it up"><br>Drag to pick it up</td><td align="center" width="33%"><img src="docs/images/screenshots/07-stretch.png" alt="Stretches and yawns"><br>Stretches and yawns</td><td align="center" width="33%"><img src="docs/images/screenshots/08-sleep.png" alt="Takes naps"><br>Takes naps</td></tr>
+<tr><td align="center" width="33%"><img src="docs/images/screenshots/09-menu.png" alt="Right-click menu"><br>Right-click menu</td><td align="center" width="33%"><img src="docs/images/screenshots/10-settings.png" alt="Settings"><br>Settings</td></tr>
 </table>
 
 ## Supported systems
@@ -147,6 +148,11 @@ The cat appears in the bottom-right corner and starts living its life after a fe
 | **Wiggle the pointer near the sitting cat** | It notices — turns around, pounces or chases the pointer for a moment |
 | **Right-click** | Opens the menu |
 
+**Lost the cat** (hidden behind a window, or off-screen)? Start Calico Cat again from the Start menu or
+the applications menu: the running cat comes back to the corner and says hello. On Windows you can also
+click the cat icon in the system tray (bottom right of the taskbar; right-click it for the menu). While a
+game, video or presentation runs full screen, the cat hides and stays quiet (Windows).
+
 ### Menu
 
 | Item | Description |
@@ -164,6 +170,7 @@ The cat appears in the bottom-right corner and starts living its life after a fe
 | 📌 Always on top (switch) | Keep the cat above other windows, or let windows cover it |
 | 🚀 Start with Windows (switch) | Launch automatically when you sign in (Windows only) |
 | 🏠 Back to the corner | Moves the cat back to the bottom-right corner |
+| 🙈 Hide the cat / 🐱 Show the cat | Windows only: hide the cat; click the tray icon to bring it back |
 | ⚙ Settings… | Opens the settings window to change several options at once |
 | ☕ Support the cat · 🎨 Order a cat that looks like your pet | Open the donation page or the request page in your browser |
 | ❤ Affection | How much the cat likes you (read-only) |
@@ -230,7 +237,7 @@ To stop it, delete `~/.config/autostart/calico-cat.desktop`.
 | The cat is hidden behind windows | Menu → 📌 Always on top |
 | The cat is too big or too small | Menu → 📏 Size |
 | No sound | Menu → 🔊 Volume, and check your system volume |
-| The cat got lost off-screen | Menu → 🏠 Back to the corner, or delete the settings folder (see [Settings](#settings)) |
+| The cat got lost off-screen or behind a window | Start Calico Cat again (or click its tray icon on Windows) — it comes back to the corner; or Menu → 🏠 Back to the corner |
 
 Found a bug or have an idea? [Open an issue](https://github.com/tunv201298/cat-desktop-pet/issues).
 
